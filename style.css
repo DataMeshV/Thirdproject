@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1500px;
+}
+.between{
+    height: 300px;
+    width: 100%;
+}
+.headd{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.title{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.therapist .Dr .userLogIn{
+    width: 100%;
+    height: 240px;
+}
+.therapist a h1{
+    font-size: 24px;
+    display: inline-block;
+    float: right;
+    color: #aad6c1;
+    margin-top: 23%;
+    margin-right: 40px;
+}
+.Dr a h1{
+    font-size: 55px;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+}
+.userLogIn a h1{
+    font-size: 16px;
+    display: inline-block;
+    color: #aad6c1;
+    margin-top: 23%;
+}
+.fa-user{
+    margin-left: 40px;
+    color: #aad6c1;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+.NavBar{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.NavHelp .Nav .NavHelp1{
+    width: 100%;
+    height: 50px;
+}
+.Nav a h1{
+    display: inline-block;
+}
+.NavWrap{
+    text-align: center;
+}
+.Nav .NavWrap a h1{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+.imgSection{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+.imgHelp .img .imgHelp1{
+    width: 100%;
+    height: 300px;
+}
+.img{
+    text-align: center;
+}
+.mtSpeech{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 21.5% 57% 21.5%;
+}
+.mtHelp .mt .mtHelp1{
+    width: 100%;
+    height: 378px;
+}
+.mt{
+    background-color: #aad6c1;
+    height: 378px;
+}
+.mtSpeech .mt h1{
+    color: white;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.line{
+    width: 40px;
+    height: 1.5px;
+    background-color: white;
+    margin-left: 40px;
+}
+.aboutMeSection{
+    display: grid;
+    grid-template-columns: 21.5% 57% 21.5%;
+}
+.aboutMe  .aboutMeHelp1 .aboutMeHelp1{
+    width: 100%;
+    height: 100px;
+}
+.aboutMe{
+    margin-top: 40px;
+}
+.AboutMeTxtSection{
+    display: grid;
+    grid-template-columns: 21.5% 28.5% 28.5% 21.5%;
+    margin-top: 20px;
+}
+.AboutMeTxtHelp .AboutMeTxt .EducationTxt .AboutMeTxtHelp1{
+    width: 100%;
+}
+.AboutMeTxtSection1{
+    display: grid;
+    grid-template-columns: 21.5% 28.5% 28.5% 21.5%;
+    margin-top: 40px;
+}
+.AboutMeTxtHelp2 .AboutMeTxt1 .EducationTxt1 .AboutMeTxtHelp3{
+    width: 100%;
+}
+.contactMeSection{
+    display: grid;
+    grid-template-columns: 21.5% 57% 21.5%;
+}
+.ContactMeHelp .ContactMe .contactMeHelp1{
+    width: 100%;
+}
+.contactMeTxtSection{
+    display: grid;
+    grid-template-columns: 21.5% 28.5% 28.5% 21.5%;
+}
+.contactMeTxtHelp .contactMeTxt .contactMeInput .contactMeTxtHelp1{
+    width: 100%;
+}
